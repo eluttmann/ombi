@@ -1,0 +1,213 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148033252-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148033252-2');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7D66G6');</script>
+<!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Viewpoint - See places before you go</title>
+  <meta name="description" content="Viewpoint - See grocery store lines before you go">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:title" content="Viewpoint - See grocery store lines before you go" />
+  <meta property="og:image" content="https://tryviewpoint.com/img/viewpoint.png"/>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1046619555503163');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1046619555503163&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+
+<body id="body">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7D66G6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="confirmation-modal d-flex align-items-center justify-content-center" id="confirmation-modal">
+    <div class="">
+      <div class="confirmation-text">
+        <h2>Your application has been received!</h2>
+        <p> Look for an invite to the app, to see places before you go in SF </p>
+      </div>
+      <button class="btn btn-secondary" onclick="closeButtonClicked()">Close</button>
+    </div>
+  </div>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+
+<!-- Add your site or application content here -->
+
+<nav class="navbar justify-content-between fixed-top navbar-light main-nav">
+  <div class="container-fluid nav-container">
+    <a href="index.html" class="navbar-brand float-left">
+      <h4>Viewpoint</h4>
+    </a>
+    <ul class="nav navbar-nav flex-row float-right align-items-center">
+      
+      <li class="nav-item">
+        <a class="nav-link pr-4" href="mailto:hello@tryviewpoint.com" onclick="supportMenuPressedNav()">Contact</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" onclick="signUpPressed()" href="https://apps.apple.com/app/apple-store/id1410559121?pt=118955302&amp;ct=Landing%20Page%20App%20Store%20Badge&amp;mt=8" target="_blank">
+          <img src="./index_files/appStore.svg" class="navbar-CTA">
+        </a>
+        </li> -->
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<section id="projects" class="else">
+  <div class="container-contents">
+
+  <div class="vertical-center">
+    <div class="row project">
+     
+      <div class="form-group col-md-6 header-text2">
+       
+          <h3> See places before you go </h3>
+          <br>
+          <div class="contact">
+        <form id="contactForm">
+          <p>
+            <label>What's your name?</label>
+            <input class="" type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Neighborhood in SF?</label>
+            <input class="" type="text" name="neighborhood" id="neighborhood" required>
+          </p>
+          <p>
+            <label>Email or phone #</label>
+            <input class="" type="text" name="email" id="email" required>
+          </p>
+          <p>
+            <label>Instagram, Twitter profile, etc. (please specify)</label>
+            <input class="" type="text" name="profile" id="profile">
+          </p>
+          <p>
+            <label>Which places in SF do you want to see before you go? (restaurants, cafes, parks, stores etc.)</label>
+            <textarea class="form-control" name="message" rows="2" id="message" required></textarea>
+          </p>
+                   
+            <button class="btn btn-request3" type="submit">Apply</button>
+          
+        </form>
+      </div>
+
+        
+      </div>
+
+    <div class="col-md-6 horizontal-center">
+      <a href="index.html" target="_blank">
+      <img src="img/20200610app.png" class="project-image img-responsive rounded" width="30" style="width:90%" >
+      <!-- <video autoplay muted playsinline loop class="embed-responsive-item">
+        <source src="img/20181118_ombi_iphone_demo_1.8.mp4" type="video/mp4" poster="img/20181118_ombi_iphone_demo_web.jpg"> 
+       </video> -->
+       </a>   <br><br>
+
+    </div>
+
+    </div>
+  </div>
+  
+  </div> 
+
+  
+
+    <!-- <div class="about-me">
+      <div class="col-md-12">
+        <h2 class="horizontal-center">
+          <span>learn more</span>
+          <a href="http://www.scottluttmann.com/about">
+            about me
+          </a>
+        </h2>
+      </div> 
+  </div>
+    </div>-->
+</section>
+
+
+
+<!-- <footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 horizontal-center">
+
+        <ul class="list-inline social-buttons-footer">
+          <li class="list-inline-item">
+            <a href="mailto:ericluttmann3@gmail.com" target="_blank">
+              <i class="fa fa-2x fa-envelope"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/luttmann" target="_blank">
+              <i class="fa fa-2x fa-linkedin"></i>
+            </a>
+          <li class="list-inline-item">
+            <a href="https://angel.co/eric-luttmann" target="_blank">
+              <i class="fa fa-2x fa-angellist"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script src="js/firebase.js"></script>
+
+</body>
+
+</html>
